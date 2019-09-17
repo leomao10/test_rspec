@@ -53,7 +53,7 @@ group :development do
 end
 
 group :test do
-
+  gem 'simplecov', '~> 0.14.1', require: false
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

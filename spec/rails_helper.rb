@@ -1,3 +1,7 @@
+# SimpleCov for code coverage metrics (this *must* be at the very top of the
+# file, before anything else is loaded).
+require 'support/simplecov'
+
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path('../../config/environment', __FILE__)
