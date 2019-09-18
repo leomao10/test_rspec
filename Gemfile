@@ -41,7 +41,6 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails', '~> 3.8.0'
   gem 'rails-controller-testing'
-  gem 'webmock', '~> 3.5.1'
 end
 
 group :development do
@@ -54,7 +53,7 @@ group :development do
 end
 
 group :test do
-  gem 'simplecov', '~> 0.14.1', require: false
+
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
